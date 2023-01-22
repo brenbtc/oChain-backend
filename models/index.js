@@ -1,7 +1,7 @@
 // Dependencies \\
 const mongoose = require('mongoose')
 require('dotenv').config()
-const connectionString = process.env.MONGODBURI
+const connectionString = "mongodb+srv://brenbtc:JX0CBy9cb6uzTFRV@cluster0.frwuycg.mongodb.net/?retryWrites=true&w=majority"
 mongoose.set('strictQuery', false)
 
 // MongoDB Connect \\
