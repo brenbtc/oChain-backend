@@ -9,7 +9,7 @@
     "mongoose": "^6.8.3"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "name": "backend",
   "version": "1.0.0",
