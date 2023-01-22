@@ -30,7 +30,9 @@ app.use('/user', userCtrl);
 app.use('/note', noteCtrl);
 app.use('/crypto', cryptoCtrl);
 // app.use('/nft', nftCtrl);
-
+app.use('/', (req, res) => {
+    res.send('Welcome to the Crypto Tracker API')
+})
 
 
 // Listener \\
